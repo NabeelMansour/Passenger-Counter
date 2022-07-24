@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: button 1s;
+}
+
+.btn1 {
+  background: green;
+}
+
+.btn2 {
+  background: red;
+  margin-left: 1rem;
+}
+
+.btn3 {
+  background: cornflowerblue;
+  margin-left: 1rem;
+}
+
+.btn4 {
+  background: orange;
+}
+
+.btn1:active,
+.btn2:active,
+.btn3:active,
+.btn4:active {
+  transform: scale(1.1);
+  background: gray;
+}
+
+#count-el {
+  font-size: 3rem;
+}
+
+#app {
+  width: 200px;
+  text-align: center;
+}
