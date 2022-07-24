@@ -11,7 +11,7 @@ const increment = () => {
 
 const decrement = () => {
   count -= 1;
-  countEl.teXtContent = count;
+  countEl.textContent = count;
 };
 
 const save = () => {
@@ -21,4 +21,9 @@ const save = () => {
 
 const reset = () => {
   sumEl.textContent = 'Sum: ' + ' ';
+};
+
+const countreset = () => {
+  countEl.textContent = 0;
+  count = 0;
 };
